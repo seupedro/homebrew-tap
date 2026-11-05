@@ -1,9 +1,9 @@
 cask "dishylink" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.3.0"
-  sha256 arm:   "0d6bc8610b346fe269b88a0c46dd2c194857e6797c30f952a2318b7258c36531",
-         intel: "706b8e302179ad11f57f04bcd32a721a6da4e9ac4485ce6de62007e254670326"
+  version "1.3.1"
+  sha256 arm:   "cbc1a2d102ade511e92ca3d1abc75ac77cc2dc443dbf0b4a4dbfb77d3a3817cf",
+         intel: "4346d83f04e1625226624fd661ee11d3d2a8064340049ecaa98d0dd3bed0c0bf"
 
   url "https://github.com/DaveyHert/Dishylink/releases/download/v#{version}/Dishylink-#{version}-#{arch}.dmg"
   name "Dishylink"
